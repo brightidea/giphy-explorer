@@ -1,0 +1,8 @@
+.navbar {
+    @apply flex items-center justify-between flex-wrap bg-white p-6 sticky top-0 z-50;
+}
+.logo {
+    width: 190px;
+    height: 101px;
+}
+

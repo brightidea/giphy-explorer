@@ -1,0 +1,15 @@
+.wrapper {
+    @apply max-w-[1600px] my-0 mx-auto; 
+}
+
+.footer {
+    @apply flex bg-white pt-4 pb-4 justify-center items-center;
+}
+
+.footer a {
+    @apply flex justify-center items-center;
+
+    @media (max-width:768px){
+        font-size: 9px;
+    } 
+}

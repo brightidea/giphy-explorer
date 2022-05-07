@@ -1,0 +1,9 @@
+.container {
+  @apply px-6 py-4;
+}
+
+.main {
+  min-height: calc(100vh - 200px);
+  transition: all 0.5s ease;
+  @apply flex flex-1 flex-col px-0 py-4 justify-center items-center;
+}

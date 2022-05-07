@@ -1,0 +1,20 @@
+.formContainer {
+    @apply relative w-full bg-white justify-center flex flex-col items-center sticky top-20 z-50;
+}
+.form {
+    @apply relative w-full m-4 mb-0 border-solid border border-gray-300 rounded-lg max-w-[800px];
+}
+.searchButton {
+    @apply h-10 w-20 text-white rounded-lg bg-blue-500 hover:bg-blue-600;
+}
+.input {
+    @apply h-14 w-full pl-6 pr-20 rounded-lg z-0 focus:shadow focus:outline-none;
+}
+.gifGrid {
+    @apply w-full max-w-[800px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-20;
+    transition: all 0.3s ease;
+}
+.gif {
+    @apply object-cover h-64 md:h-72 lg:h-64 w-full rounded-lg shadow hover:shadow-xl hover:scale-105;
+    transition: all 0.3s ease;
+}
